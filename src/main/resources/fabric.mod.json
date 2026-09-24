@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "snowybiomes",
+  "version": "${version}",
+  "name": "Snowy Biomes",
+  "description": "Laat het permanent sneeuwen, maar uitsluitend in ijs- en sneeuwbiomen.",
+  "authors": ["Jij"],
+  "contact": {},
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.snowybiomes.SnowyBiomesClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
